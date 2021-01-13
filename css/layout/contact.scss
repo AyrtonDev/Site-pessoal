@@ -1,0 +1,55 @@
+/* Contato */
+
+.contact{
+   @include layout-default();
+   flex-direction: column;
+   justify-content: center;
+   height: 800px;
+
+   h2{
+       font-size: 2.5em;
+       
+   }
+
+   .social{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+   }
+
+   .social ul{
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+   }
+
+   .social ul li{
+       margin: 10%;
+   }
+
+   .Message{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       width: 70%;
+       font-size: 25px;
+       margin-bottom: 30px;
+   }
+}
+
+.contact .social a{
+   margin-top: 40px;
+}
+
+.contact .Message p strong:first-child{
+   color: #DB3930;
+   text-shadow: 1px 1px $dark-color;
+}
+
+.contact .Message p strong:last-child{
+   color: #48c355;
+   text-shadow: 1px 1px $dark-color;
+}

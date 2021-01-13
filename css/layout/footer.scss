@@ -1,0 +1,13 @@
+/* Rodape */
+
+.footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   .text{
+       background-color: $dark-color;
+       display: flex;
+       justify-content: center;
+   }
+}

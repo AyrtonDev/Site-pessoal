@@ -1,0 +1,19 @@
+/* Goals */
+
+.main .goals{
+   @include layout-default();
+   justify-content: space-around;
+
+   .text{
+       @include text-default();
+       margin-left: 15%;
+   }
+
+   .text h2{
+       font-weight: $bold;
+   }
+
+   .text p{
+       text-align: justify;
+   }
+}

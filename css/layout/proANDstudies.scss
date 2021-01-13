@@ -1,0 +1,38 @@
+/* Projects and Studies */
+
+.main .projectsStudies{
+   @include layout-default(650px);
+
+   .ilustration{
+       display: none;  
+   }
+
+   .text{
+       @include text-default(22px);
+       margin-left: 10%;
+       margin-top: 20px;
+       width: 55%;
+   }
+
+   .text .h2{
+       font-weight: $bold;
+   }
+
+   .text p{
+       text-align: justify;
+   }
+
+   .fig{
+       height: 400px;
+       justify-self: flex-end;
+   }
+}
+
+.main .projectsStudies .fig .ilustration1{
+   position: absolute;
+}
+
+.main .projectsStudies .fig .ilustration2{
+   position: relative;
+   margin: 40px 0 0 65px;
+}
